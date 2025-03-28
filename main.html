@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday!</title>
+    <style>
+        body {
+            text-align: center;
+            font-family: Arial, sans-serif;
+            background-image: url('cjxkGB0.gif');
+            background-size: cover;
+            padding: 50px;
+        }
+        h1 {
+            color: #ffffff;
+            font-size: 3em;
+            text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.7);
+        }
+        img {
+            width: 300px;
+            height: auto;
+            border-radius: 15px;
+            box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.7);
+            margin: 20px 0;
+        }
+        p {
+            font-size: 1.5em;
+            color: #ffffff;
+            text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.7);
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 1.2em;
+            background-color: #000000;
+            color: #fff;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Happy Birthday Bro!</h1>
+    <img src="704ed501-2ceb-4a9c-b064-aa3509ac21ed.jpg" alt="Birthday boi">
+    <p>I love you broo! Wishing you more birthday bro, sana tumagal kapa para maging ninong ka ng anak ko HAHAHAHA</p>
+    
+    <button onclick="playMusic()">Click for Surprise</button>
+    
+    <audio id="bg-music" loop>
+        <source src="Song.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+    
+    <script>
+        function playMusic() {
+            let audio = document.getElementById("bg-music");
+            audio.play();
+        }
+    </script>
+</body>
+</html>
